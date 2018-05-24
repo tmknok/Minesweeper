@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bde9fc94-a93b-4485-a649-3a4269af3e63" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Minesweeper.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Minesweeper.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Taulu.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Taulu.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Minesweeper$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Minesweeper$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Taulu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Taulu.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,8 +34,8 @@
       <file leaf-file-name="Taulu.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="548">
+              <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -282,8 +278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="548">
+          <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
