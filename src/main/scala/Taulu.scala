@@ -12,6 +12,7 @@ class Taulu (a: Int, b: Int) {
     }
   }
 
+
   def tulostaTaulu(): Unit = {
     for (i <- 0 until a) {
       for (j <- 0 until b) {
@@ -35,8 +36,6 @@ class Taulu (a: Int, b: Int) {
   }
 
   def lisaaVihjeet(x: Int, y: Int): Unit = {
-    print(x)
-    print(y)
       if(onkoTaululla(x-1,y-1)) {taulu(x - 1)(y - 1) = boom(x-1,y-1)}
       if(onkoTaululla(x-1,y)) {taulu(x - 1)(y) =  boom(x-1,y)}
       if(onkoTaululla(x-1,y+1)) {taulu(x - 1)(y + 1) = boom(x-1,y+1)}
@@ -63,6 +62,14 @@ class Taulu (a: Int, b: Int) {
       return false
     }
     true
+  }
+
+  def annaArvo(x: Int,y: Int): Int ={
+    taulu(x)(y)
+  }
+
+  def paivitaTaulu(x: Int, y: Int, peli: Taulu): Unit ={
+    taulu(x)(y)=peli.annaArvo(x,y)
   }
 
 
