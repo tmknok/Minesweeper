@@ -2,135 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bde9fc94-a93b-4485-a649-3a4269af3e63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Minesweeper.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Taulu.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/.idea/hydra.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/.idea/modules/untitled-build.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/.idea/modules/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/.idea/sbt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/.idea/scala_compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/build.sbt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/build.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/config-classes/$130f362df865356d18d9$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/config-classes/$130f362df865356d18d9.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/config-classes/$130f362df865356d18d9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/config-classes/$5ed45ec79ddfcc1e676b$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/config-classes/$5ed45ec79ddfcc1e676b.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/config-classes/$5ed45ec79ddfcc1e676b.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/config-classes/$6b51b7185a9424903e59$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/config-classes/$6b51b7185a9424903e59.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/config-classes/$6b51b7185a9424903e59.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/config-classes/$d9083446923bfab0fc3b$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/config-classes/$d9083446923bfab0fc3b.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/config-classes/$d9083446923bfab0fc3b.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/scala-2.12/sbt-1.0/resolution-cache/default/untitled-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/scala-2.12/sbt-1.0/resolution-cache/default/untitled-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-untitled-build-compile-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-untitled-build-compile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-untitled-build-optional.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-untitled-build-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-untitled-build-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-untitled-build-provided.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-untitled-build-runtime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-untitled-build-runtime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-untitled-build-scala-tool.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-untitled-build-test-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-untitled-build-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/$global/$global/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/$global/ivySbt/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/$global/projectDescriptors/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/$global/update/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/compile/$global/$global/discoveredMainClasses/data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/compile/compile/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/compile/copyResources/$global/streams/copy-resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/compile/unmanagedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/compile/unmanagedJars/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/project/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/src/main/scala/Minesweeper.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/src/main/scala/Taulu.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/.history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/classes/Minesweeper$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/classes/Minesweeper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/classes/Taulu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/classes/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/classes/test$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/classes/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/default/untitled$sources/0.1/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/default/untitled$sources/0.1/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/default/untitled_2.12/0.1/resolved.xml.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/default/untitled_2.12/0.1/resolved.xml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled$sources-compile-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled$sources-compile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled$sources-optional.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled$sources-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled$sources-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled$sources-provided.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled$sources-runtime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled$sources-runtime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled$sources-scala-tool.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled$sources-test-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled$sources-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled_2.12-compile-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled_2.12-compile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled_2.12-optional.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled_2.12-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled_2.12-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled_2.12-provided.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled_2.12-runtime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled_2.12-runtime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled_2.12-scala-tool.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled_2.12-test-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/default-untitled_2.12-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/ivy-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/$global/ivySbt/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/$global/projectDescriptors/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/$global/update/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/compile/unmanagedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/compile/unmanagedJars/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/test/unmanagedClasspath/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Minesweeper/target/streams/test/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Minesweeper.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Minesweeper.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Taulu.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Taulu.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Minesweeper$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Minesweeper$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Taulu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Taulu.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -150,20 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Minesweeper.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Minesweeper.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Taulu.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Taulu.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="310">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -179,8 +55,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/Taulu.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Minesweeper.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Taulu.scala" />
       </list>
     </option>
   </component>
@@ -397,20 +273,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="310">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
