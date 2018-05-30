@@ -12,6 +12,13 @@ class Taulu (a: Int, b: Int) {
     }
   }
 
+  def annaRivit (): Int ={
+    return a
+  }
+
+  def annaSarakkeet(): Int ={
+    return b
+  }
 
   def tulostaTaulu(): Unit = {
     for (i <- 0 until a) {

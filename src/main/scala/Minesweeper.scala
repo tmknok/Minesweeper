@@ -5,7 +5,13 @@ object Minesweeper {
   def main(args: Array[String]) {
     println("Hello")
 
-    val peli = new Taulu(10,10)
+    val window = new Peli()
+    window.setVisible(true)
+
+    val rivi = 10
+    val sarake = 10
+
+    val peli = new Taulu(rivi,sarake)
     peli.tulostaTaulu()
     println()
     peli.lisaaPommit(5)
@@ -15,14 +21,14 @@ object Minesweeper {
     val pelaajaTaulu = new Taulu(10,10)
     pelaajaTaulu.tulostaTaulu()
 
-    val scanner = new Scanner(System.in)
-    println("Anna x")
-    val x = scanner.nextInt()
-    println("Anna y")
-    val y = scanner.nextInt()
+    //val scanner = new Scanner(System.in)
+    //println("Anna x")
+    //val x = scanner.nextInt()
+    //println("Anna y")
+    //val y = scanner.nextInt()
 
-    pelaajaTaulu.paivitaTaulu(x, y, peli)
-    pelaajaTaulu.tulostaTaulu()
+    //pelaajaTaulu.paivitaTaulu(x, y, peli)
+    //pelaajaTaulu.tulostaTaulu()
 
   }
 }
