@@ -15,14 +15,15 @@ object Minesweeper {
     val pelaajaTaulu = new Taulu(10,10)
     pelaajaTaulu.tulostaTaulu()
 
-    val scanner = new Scanner(System.in)
-    println("Anna x")
-    val x = scanner.nextInt()
-    println("Anna y")
-    val y = scanner.nextInt()
+    while (peli.annaGameOver() != true) {
+      val scanner = new Scanner(System.in)
+      println("Anna x")
+      val x = scanner.nextInt()
+      println("Anna y")
+      val y = scanner.nextInt()
 
-    pelaajaTaulu.paivitaTaulu(x, y, peli)
-    pelaajaTaulu.tulostaTaulu()
-
+      pelaajaTaulu.paivitaTaulu(x, y, peli)
+      pelaajaTaulu.tulostaTaulu()
+    }
   }
 }

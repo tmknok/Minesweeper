@@ -5,6 +5,7 @@ class Taulu (a: Int, b: Int) {
   // def luoTaulu(): Unit = {
   val taulu = ofDim[Int] (a, b)
   val r = scala.util.Random
+  var gameOver = false
 
   for (i <- 0 until a) {
     for (j <- 0 until b) {
@@ -54,6 +55,16 @@ class Taulu (a: Int, b: Int) {
     }
   }
 
+  def gameOver (x:Int, y:Int) : Unit ={
+    if (taulu (x)(y) == 9){
+      gameOver = true
+    }
+  }
+
+  def annaGameOver ():Boolean={
+    gameOver
+  }
+
   def onkoTaululla(x: Int, y: Int): Boolean ={
     if (x<0 || y<0) {
       return false
@@ -71,6 +82,8 @@ class Taulu (a: Int, b: Int) {
   def paivitaTaulu(x: Int, y: Int, peli: Taulu): Unit ={
     taulu(x)(y)=peli.annaArvo(x,y)
   }
+
+
 
 
   //}
