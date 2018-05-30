@@ -58,7 +58,32 @@ class Peli extends JFrame {
 
 
     def paivitaPeli(peli: Taulu) {
-      painikkeet.flatten.map(button => {
+      painikkeet.flatten.foreach(button => {
+        val panelX = (button.getX() / button.getSize().getWidth()).toInt
+        val panelY = (button.getY() / button.getSize().getHeight()).toInt
+
+
+        button.addMouseListener(new MouseAdapter() {
+          override def mouseReleased(e: MouseEvent) {
+            //showCell(button, panelX, panelY)
+          }
+        })
+      })
+    }
+
+    paivitaPeli(peli)
+    validate()
+    repaint()
+
+
+    def defineBody() {
+      body.setLayout(new BorderLayout())
+      body.add(peliRuutu, BorderLayout.CENTER)
+      body.add(toolBar, BorderLayout.NORTH)
+
+
+    }
+  }
 
 
 
