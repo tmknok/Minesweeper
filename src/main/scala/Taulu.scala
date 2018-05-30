@@ -17,9 +17,9 @@ class Taulu (a: Int, b: Int) {
   def tulostaTaulu(): Unit = {
     for (i <- 0 until a) {
       for (j <- 0 until b) {
-        print(" " + taulu(i)(j))
+        print(" | " + taulu(i)(j))
       }
-      println()
+      println(" ")
     }
   }
 
@@ -79,9 +79,34 @@ class Taulu (a: Int, b: Int) {
     taulu(x)(y)
   }
 
-  def paivitaTaulu(x: Int, y: Int, peli: Taulu): Unit ={
-    taulu(x)(y)=peli.annaArvo(x,y)
+  //def paivitaTaulu(x: Int, y: Int, peli: Taulu): Unit ={
+    //taulu(x)(y)=peli.annaArvo(x,y)
+  //}
+
+  def avaa(x:Int, y:Int, peli: Taulu): Unit ={
+    if (taulu (x)(y) == 9){
+      gameOver = true
+      println("Game over")
+    }else {
+      val lahimiinat = peli.annaArvo(x,y)
+      taulu(x)(y) = peli.annaArvo(x, y)
+      if (lahimiinat == 0){
+
+      }
+
+    }
+
   }
+
+  def naytaTyhjat (x:Int, y:Int): Unit ={
+    //while (taulu (x)(y) = 0){
+      //taulu.update(0)
+
+    //taulu.paivitaTaulu(x,y)
+
+
+    }
+  //}
 
 
 
