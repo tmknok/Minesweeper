@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bde9fc94-a93b-4485-a649-3a4269af3e63" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Minesweeper.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Minesweeper.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Peli.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Peli.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Ruudukko.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Ruudukko.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Taulu.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Minesweeper$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Minesweeper$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Peli$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Peli$$anon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Peli.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Peli.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Ruudukko.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Ruudukko.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Taulu.class" beforeDir="false" />
-    </list>
+    <list default="true" id="bde9fc94-a93b-4485-a649-3a4269af3e63" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -34,8 +23,8 @@
       <file leaf-file-name="Minesweeper.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="544">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -43,11 +32,8 @@
       <file leaf-file-name="Peli.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Peli.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -64,8 +50,8 @@
       <file leaf-file-name="Ruudukko.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Ruudukko.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1768">
-              <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+            <state relative-caret-position="405">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -651,8 +637,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Ruudukko.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
+        <state relative-caret-position="405">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -661,18 +647,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="544">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Peli.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
