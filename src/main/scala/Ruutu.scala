@@ -11,6 +11,7 @@ case class Ruutu (hasMiina:Boolean, liputettu: Boolean, klikattu: Boolean, var m
   def annaMiinojaYmp(): Int = {
     miinojaYmparilla
   }
+
   def kasvataMiinojaYmp(): Unit = {
     miinojaYmparilla+=1
   }

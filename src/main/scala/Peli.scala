@@ -23,24 +23,20 @@ import javax.swing.BorderFactory
 
 class Peli extends JFrame {
 
-  val rivit = 9
-  val sarakkeet = 9
-  val miinat = 9
+  val rivit = 10
+  val sarakkeet = 10
+  val miinat = 10
 
-  //val intro = new IntroPanel()
   val body = new JPanel()
   val peliRuutu = new JPanel()
   val toolBar = new JToolBar()
   val btnLevel1 = new JLabel()
 
-  //val newGame = new JLabel(new ImageIcon("img/nwGame.png"))
   val ruutu = new ImageIcon("kuvat/square.png")
   val lippu = new ImageIcon("kuvat/lippu.png")
   val pommi = new ImageIcon("kuvat/miina.png")
 
-  //val emptyIcon = new ImageIcon("img/empty.png")
-
-  val taustaVari = new Color(135, 199, 217)
+  val taustaVari = new Color(10, 100, 100)
 
   def teeRuudukko(peli: Ruudukko) {
     val ruudukko = new GridLayout()
@@ -56,11 +52,11 @@ class Peli extends JFrame {
     validate()
     repaint()
 
-
     def paivitaPeli(peli: Ruudukko) {
       painikkeet.flatten.foreach(button => {
-        val panelX = (button.getX() / button.getSize().getWidth()).toInt
-        val panelY = (button.getY() / button.getSize().getHeight()).toInt
+        val panelX = (button.getLocation().x / button.getSize().getWidth()).toInt
+        val panelY = (button.getLocation().y / button.getSize().getHeight()).toInt
+
 
         val ruutu = peli.annaRuutu(panelX, panelY)
 
@@ -92,6 +88,7 @@ class Peli extends JFrame {
             showCell(button, panelX, panelY)
           }
         })
+
       })
     }
 
@@ -102,11 +99,11 @@ class Peli extends JFrame {
     if (peli.osuttuMiinaan()) {
       JOptionPane.showInternalMessageDialog(body, "LUUSERI", "Miina räjähti!",
         JOptionPane.ERROR_MESSAGE)
-      alustaRuudukko(peli)
+      alustaRuudukko(new Ruudukko(peli.riveja, peli.sarakkeita, peli.miinoja))
     } else if (peli.vainMiinoja()) {
       JOptionPane.showInternalMessageDialog(body, "WINNER TAKES IT ALL!", "Voitit pelin!",
         JOptionPane.INFORMATION_MESSAGE)
-      alustaRuudukko(peli)
+      alustaRuudukko(new Ruudukko(peli.riveja, peli.sarakkeita, peli.miinoja))
     }
 
     def showCell(button: JLabel, panelX: Int, panelY: Int): Unit = {

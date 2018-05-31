@@ -3,6 +3,7 @@ import scala.annotation.tailrec
 
 class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int ){
   def this(koko: Int) = this (koko,koko,koko.*(2))
+
   //Täytetään ruudukko ruuduilla
   var ruudut:Array[Array[Ruutu]] = Array.fill(riveja,sarakkeita)(new Ruutu())
 
@@ -43,31 +44,13 @@ class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int ){
 
 
   def annaRuutu(x: Int, y: Int): Ruutu = {
-    if (onkoTaululla(x,y)) {
+    //if (onkoTaululla(x,y)) {
       ruudut(x)(y)
-    } else {
-      null
-    }
+    //} else {
+     // null
+    //}
   }
 
- /*/ def lisaaVihjeet(x: Int, y: Int): Unit = {
-    if(onkoTaululla(x-1,y-1)) {ruudut(x - 1)(y - 1) = boom(x-1,y-1)}
-    if(onkoTaululla(x-1,y)) {ruudut(x - 1)(y) =  boom(x-1,y)}
-    if(onkoTaululla(x-1,y+1)) {ruudut(x - 1)(y + 1) = boom(x-1,y+1)}
-    if(onkoTaululla(x,y-1)) {ruudut(x)(y - 1) = boom(x,y-1)}
-    if(onkoTaululla(x,y+1)) {ruudut(x)(y + 1) = boom(x,y+1)}
-    if(onkoTaululla(x+1,y-1)) {ruudut(x + 1)(y - 1) = boom(x+1,y-1)}
-    if(onkoTaululla(x+1,y)) {ruudut(x + 1)(y) = boom(x+1,y)}
-    if(onkoTaululla(x+1,y+1)) {ruudut(x + 1)(y + 1) = boom(x+1,y+1)}
-  }
-
-  def boom(x: Int, y: Int): Unit  ={
-    if (ruudut(x)(y).hasMiina) {
-      ruudut(x)(y).miinojaYmparilla+=1
-    } else {
-
-    }
-  }*/
 
   def lisaaVihjeet(x: Int, y: Int): Unit = {
     if(onkoTaululla(x-1,y-1)) {ruudut(x - 1)(y - 1).kasvataMiinojaYmp()}
@@ -105,11 +88,6 @@ class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int ){
     }
   }
 
- /* def avaaRuutu(x: Int, y: Int): Unit = {
-    if(onkoTaululla(x,y) && !ruudut(x)(y).klikattu) {
-      ruudut(x)(y) = ruudut(x)(y).copy(klikattu = true)
-    }
-  } */
 
   def naytaNaapurit(x: Int, y: Int): Unit = {
     @tailrec

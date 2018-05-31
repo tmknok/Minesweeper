@@ -32,6 +32,7 @@ object Minesweeper {
 */
 
     val window = new Peli()
+
     window.setVisible(true)
 
   }
