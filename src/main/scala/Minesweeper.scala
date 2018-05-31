@@ -11,15 +11,17 @@ object Minesweeper {
     val rivi = 10
     val sarake = 10
 
-    val peli = new Taulu(rivi,sarake)
-    peli.tulostaTaulu()
+    val peli = new Ruudukko(rivi)
+    peli.tulostaRuudukko()
     println()
-    peli.lisaaPommit(5)
-    peli.tulostaTaulu()
+    peli.luoRuudukko()
+    peli.tulostaRuudukko()
+    //peli.lisaaPommit(5)
+   // peli.tulostaTaulu()
     println()
 
-    val pelaajaTaulu = new Taulu(10,10)
-    pelaajaTaulu.tulostaTaulu()
+    //val pelaajaTaulu = new Taulu(10,10)
+    //pelaajaTaulu.tulostaTaulu()
 
     //val scanner = new Scanner(System.in)
     //println("Anna x")
