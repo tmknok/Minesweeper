@@ -2,11 +2,11 @@ import scala.util.Random
 import scala.annotation.tailrec
 
 class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int ){
-  def this(koko: Int) = this (koko,koko,koko.*(2))
 
+  def this(koko: Int) = this (koko,koko,10)
   //Täytetään ruudukko ruuduilla
   var ruudut:Array[Array[Ruutu]] = Array.fill(riveja,sarakkeita)(new Ruutu())
-
+  this.lisaaPommit(10)
 
   def annaRivit(): Int = {
     riveja

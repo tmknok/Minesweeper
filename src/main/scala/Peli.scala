@@ -82,7 +82,6 @@ class Peli extends JFrame {
             }
           }
         }
-
         button.addMouseListener(new MouseAdapter() {
           override def mouseReleased(e: MouseEvent) {
             showCell(button, panelX, panelY)
@@ -136,7 +135,6 @@ class Peli extends JFrame {
     setContentPane(body)
     validate()
     repaint()
-    peli.lisaaPommit(miinat)
     uusiPeli(peli)
     teeRuudukko(peli)
     alustaRuudukko(peli)
