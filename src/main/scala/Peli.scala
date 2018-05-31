@@ -1,7 +1,6 @@
-import java.awt.BorderLayout
-import java.awt.GridLayout
+import java.awt.{BorderLayout, Color, Font, GridBagLayout, GridLayout}
 import java.awt.event.InputEvent
-import java.util.Random
+
 import javax.swing.JButton
 import javax.swing.JFrame
 import javax.swing.JOptionPane
@@ -11,11 +10,10 @@ import javax.swing.JToggleButton
 import javax.swing.JToolBar
 import java.awt.event.MouseAdapter
 import java.awt.event.MouseEvent
+
 import javax.swing.WindowConstants
 import javax.swing.JLabel
 import javax.swing.ImageIcon
-import java.awt.Color
-
 import javax.swing.border.Border
 import javax.swing.BorderFactory
 
@@ -27,6 +25,7 @@ class Peli extends JFrame {
   val sarakkeet = 10
   val miinat = 10
 
+  val intro = new JPanel()
   val body = new JPanel()
   val peliRuutu = new JPanel()
   val toolBar = new JToolBar()
@@ -128,6 +127,17 @@ class Peli extends JFrame {
     //body.add(toolBar, BorderLayout.NORTH)
   }
 
+  /*def alustaLevel(): Unit = {
+
+    btnLevel1.setSize(100,100)
+    btnLevel1.addMouseListener(new MouseAdapter() {
+      override def mouseReleased(e: MouseEvent) {
+        val hula = new Ruudukko(rivit, sarakkeet, miinat)
+        alustaTaso(hula)
+      }
+    })
+  }*/
+
 
   def alustaTaso(peli: Ruudukko): Unit = {
     setSize(peli.annaRivit() * (ruutu.getIconWidth - 1), peli.annaSarakkeet() * ruutu.getIconHeight)
@@ -138,12 +148,27 @@ class Peli extends JFrame {
     uusiPeli(peli)
     teeRuudukko(peli)
     alustaRuudukko(peli)
-
   }
 
-  val hula = new Ruudukko(rivit, sarakkeet, miinat)
-  alustaTaso(hula)
+  def defineIntro(): Unit = {
+    intro.setLayout(new GridBagLayout)
+    val teksti = new JLabel("Paina tästä")
+    teksti.setFont(new Font("Verdana", 1,20))
+    intro.add(teksti)
+    intro.addMouseListener(new MouseAdapter() {
+      override def mouseReleased(e: MouseEvent) {
+        val hula = new Ruudukko(rivit, sarakkeet, miinat)
+        alustaTaso(hula)
+      }
+    })
+  }
 
+
+  defineIntro()
+
+
+  setSize(200,200)
+  setContentPane(intro)
   defineBody()
 
   setTitle("Miinaharava")
