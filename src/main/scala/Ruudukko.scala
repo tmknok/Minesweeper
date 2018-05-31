@@ -1,11 +1,24 @@
 import scala.util.Random
+import scala.annotation.tailrec
 
-class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int){
+class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int ){
   def this(koko: Int) = this (koko,koko,koko.*(2))
   //Täytetään ruudukko ruuduilla
   var ruudut:Array[Array[Ruutu]] = Array.fill(riveja,sarakkeita)(new Ruutu())
-  //Luodaan ruudukko
 
+
+  def annaRivit(): Int = {
+    riveja
+  }
+
+  def annaSarakkeet(): Int = {
+    sarakkeita
+  }
+
+  def annaMiinat(): Int = {
+    miinoja
+  }
+  //Luodaan ruudukko
   def luoRuudukko():Unit = {
     println("luodaan")
     lisaaPommit(miinoja)
@@ -26,6 +39,15 @@ class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int){
       }
     }
 
+  }
+
+
+  def annaRuutu(x: Int, y: Int): Ruutu = {
+    if (onkoTaululla(x,y)) {
+      ruudut(x)(y)
+    } else {
+      null
+    }
   }
 
  /*/ def lisaaVihjeet(x: Int, y: Int): Unit = {
@@ -65,6 +87,68 @@ class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int){
     true
   }
 
+  def avaaRuutu(x: Int, y: Int): Unit = {
+    if (onkoTaululla(x,y)) {
+      val ruutu = ruudut(x)(y)
+      if (!ruutu.klikattu && !ruutu.hasMiina && ruutu.miinojaYmparilla == 0) {
+        ruudut(x)(y) = ruudut(x)(y).copy(klikattu = true)
+        naytaNaapurit(x, y)
+      } else {
+        if (!ruutu.klikattu && !ruutu.hasMiina && ruutu.miinojaYmparilla > 0) {
+          ruudut(x)(y) = ruudut(x)(y).copy(klikattu = true)
+        } else {
+          if (!ruutu.klikattu && ruutu.hasMiina) {
+            ruudut(x)(y) = ruudut(x)(y).copy(klikattu = true)
+          }
+        }
+      }
+    }
+  }
+
+ /* def avaaRuutu(x: Int, y: Int): Unit = {
+    if(onkoTaululla(x,y) && !ruudut(x)(y).klikattu) {
+      ruudut(x)(y) = ruudut(x)(y).copy(klikattu = true)
+    }
+  } */
+
+  def naytaNaapurit(x: Int, y: Int): Unit = {
+    @tailrec
+    def loop(nytX: Int, nytY: Int): Unit = {
+      avaaRuutu(nytX, nytY)
+      if(nytX == x.+(1) && nytY == y.+(1)) {
+      } else {
+        if(nytY < y.+(1)) {
+          loop(nytX, nytY.+(1))
+        } else {
+          loop(nytX.+(1), nytY.-(1))
+        }
+      }
+    }
+    loop(x.-(1),y.-(1))
+  }
+
+  def osuttuMiinaan(): Boolean ={
+    for (i<-0 until riveja; j<-0 until sarakkeita) {
+      if (ruudut(i)(j).klikattu && ruudut(i)(j).hasMiina) {
+        return true
+      }
+    }
+    false
+  }
+
+  def vainMiinoja(): Boolean = {
+    var laskin = 0
+    for (i<-0 until riveja; j<-0 until sarakkeita) {
+      if (!ruudut(i)(j).klikattu) {
+        laskin+=1
+      }
+    }
+    if (laskin > miinoja) {
+      return false
+    }
+    true
+  }
+
   def tulostaRuudukko(): Unit = {
     for (i<-0 until riveja) {
       for (j <- 0 until sarakkeita) {
@@ -72,6 +156,23 @@ class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int){
           print("* ")
         } else {
           print(ruudut(i)(j).miinojaYmparilla + " ")
+        }
+      }
+      println()
+    }
+  }
+
+  def tulostaRuudukko2(): Unit = {
+    for (i<-0 until riveja) {
+      for (j<-0 until sarakkeita) {
+        if (ruudut(i)(j).klikattu) {
+          if (ruudut(i)(j).hasMiina) {
+            print("* ")
+          } else {
+            print(ruudut(i)(j).miinojaYmparilla + " ")
+          }
+        } else {
+          print("? ")
         }
       }
       println()

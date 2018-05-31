@@ -3,25 +3,23 @@ import java.util.Scanner
 object Minesweeper {
 
   def main(args: Array[String]) {
-    println("Hello")
+    //println("Hello")
 
-    val window = new Peli()
+   /* val window = new Peli()
     window.setVisible(true)
 
     val rivi = 10
     val sarake = 10
 
     val peli = new Ruudukko(rivi)
-    peli.tulostaRuudukko()
+    //peli.tulostaRuudukko()
     println()
     peli.luoRuudukko()
     peli.tulostaRuudukko()
-    //peli.lisaaPommit(5)
-   // peli.tulostaTaulu()
+    peli.avaaRuutu(5,6)
+    peli.tulostaRuudukko2()
     println()
 
-    //val pelaajaTaulu = new Taulu(10,10)
-    //pelaajaTaulu.tulostaTaulu()
 
     //val scanner = new Scanner(System.in)
     //println("Anna x")
@@ -31,6 +29,10 @@ object Minesweeper {
 
     //pelaajaTaulu.paivitaTaulu(x, y, peli)
     //pelaajaTaulu.tulostaTaulu()
+*/
+
+    val window = new Peli()
+    window.setVisible(true)
 
   }
 }
