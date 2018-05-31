@@ -27,18 +27,14 @@ class Peli extends JFrame {
   val sarakkeet = 9
   val miinat = 9
 
-  //val intro = new IntroPanel()
   val body = new JPanel()
   val peliRuutu = new JPanel()
   val toolBar = new JToolBar()
   val btnLevel1 = new JLabel()
 
-  //val newGame = new JLabel(new ImageIcon("img/nwGame.png"))
-  val ruutu = new ImageIcon("kuvat/square.png")
+  val ruutu = new ImageIcon("kuvat/ruutu4.png")
   val lippu = new ImageIcon("kuvat/lippu.png")
   val pommi = new ImageIcon("kuvat/miina.png")
-
-  //val emptyIcon = new ImageIcon("img/empty.png")
 
   val taustaVari = new Color(135, 199, 217)
 
@@ -55,7 +51,6 @@ class Peli extends JFrame {
     painikkeet.flatten.map(button => peliRuutu.add(button))
     validate()
     repaint()
-
 
     def paivitaPeli(peli: Ruudukko) {
       painikkeet.flatten.foreach(button => {
@@ -98,6 +93,7 @@ class Peli extends JFrame {
     paivitaPeli(peli)
     validate()
     repaint()
+    paivitaPeli(peli)
 
     if (peli.osuttuMiinaan()) {
       JOptionPane.showInternalMessageDialog(body, "LUUSERI", "Miina räjähti!",

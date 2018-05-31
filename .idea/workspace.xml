@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bde9fc94-a93b-4485-a649-3a4269af3e63" name="Default" comment="" />
+    <list default="true" id="bde9fc94-a93b-4485-a649-3a4269af3e63" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Peli.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Peli.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Peli$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Peli$$anon$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Peli$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Peli$$anon$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Peli.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Peli.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -24,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -32,8 +37,11 @@
       <file leaf-file-name="Peli.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Peli.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="255">
+              <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/Ruutu.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -107,13 +115,25 @@
             <path>
               <item name="Minesweeper" type="b2602c69:ProjectViewProjectNode" />
               <item name="Minesweeper" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Minesweeper" type="b2602c69:ProjectViewProjectNode" />
               <item name="Minesweeper" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="dictionaries" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Minesweeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Minesweeper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Minesweeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Minesweeper" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,7 +264,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -256,7 +275,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3608924" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3608924" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -294,6 +313,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="sbt" order="3" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32939634" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32939634" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32939634" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -310,21 +330,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -332,16 +350,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala" />
     <entry file="file://$USER_HOME$/IdeaProjects/Minesweeper/src/main/scala/Taulu.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -349,16 +358,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -382,16 +382,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="83" column="3" lean-forward="true" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -399,16 +390,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala" />
     <entry file="file://$USER_HOME$/IdeaProjects/Minesweeper/src/main/scala/Taulu.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -424,16 +406,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Peli.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="71" column="3" lean-forward="true" selection-start-line="55" selection-start-column="2" selection-end-line="71" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Ruutu.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Ruudukko.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
@@ -443,16 +416,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala" />
     <entry file="file://$USER_HOME$/IdeaProjects/Minesweeper/src/main/scala/Taulu.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -460,16 +424,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -493,16 +448,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -510,16 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala" />
     <entry file="file://$USER_HOME$/IdeaProjects/Minesweeper/src/main/scala/Taulu.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -527,16 +464,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="48" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -575,16 +503,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="83" column="3" lean-forward="true" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -592,16 +511,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala" />
     <entry file="file://$USER_HOME$/IdeaProjects/Minesweeper/src/main/scala/Taulu.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -609,29 +519,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Taulu.scala" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO4664B736/GridLayoutDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1921">
-          <folding>
-            <element signature="e#0#6065#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1921" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Ruutu.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -648,14 +545,24 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Peli.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="255">
+          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
