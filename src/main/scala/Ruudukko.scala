@@ -21,9 +21,7 @@ class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int ){
   }
   //Luodaan ruudukko
   def luoRuudukko():Unit = {
-    println("luodaan")
     lisaaPommit(miinoja)
-    //lisaaVihjeet()
   }
 
   def lisaaPommit(pLkm: Int): Unit ={
@@ -44,11 +42,7 @@ class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int ){
 
 
   def annaRuutu(x: Int, y: Int): Ruutu = {
-    //if (onkoTaululla(x,y)) {
       ruudut(x)(y)
-    //} else {
-     // null
-    //}
   }
 
 
@@ -70,24 +64,19 @@ class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int ){
     true
   }
 
+
   def avaaRuutu(x: Int, y: Int): Unit = {
     if (onkoTaululla(x,y)) {
-      val ruutu = ruudut(x)(y)
-      if (!ruutu.klikattu && !ruutu.hasMiina && ruutu.miinojaYmparilla == 0) {
-        ruudut(x)(y) = ruudut(x)(y).copy(klikattu = true)
-        naytaNaapurit(x, y)
-      } else {
-        if (!ruutu.klikattu && !ruutu.hasMiina && ruutu.miinojaYmparilla > 0) {
+      val ruutu = (ruudut(x)(y).klikattu, ruudut(x)(y).hasMiina, ruudut(x)(y).miinojaYmparilla)
+      ruutu match {
+        case (false,false,0) =>
           ruudut(x)(y) = ruudut(x)(y).copy(klikattu = true)
-        } else {
-          if (!ruutu.klikattu && ruutu.hasMiina) {
-            ruudut(x)(y) = ruudut(x)(y).copy(klikattu = true)
-          }
-        }
+          naytaNaapurit(x, y)
+        case _ => ruudut(x)(y) = ruudut(x)(y).copy(klikattu = true)
+
       }
     }
   }
-
 
   def naytaNaapurit(x: Int, y: Int): Unit = {
     @tailrec
@@ -114,11 +103,13 @@ class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int ){
     false
   }
 
+
+
   def vainMiinoja(): Boolean = {
     var laskin = 0
     for (i<-0 until riveja; j<-0 until sarakkeita) {
       if (!ruudut(i)(j).klikattu) {
-        laskin+=1
+        laskin += 1
       }
     }
     if (laskin > miinoja) {
@@ -126,36 +117,4 @@ class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int ){
     }
     true
   }
-
-  def tulostaRuudukko(): Unit = {
-    for (i<-0 until riveja) {
-      for (j <- 0 until sarakkeita) {
-        if (ruudut(i)(j).hasMiina) {
-          print("* ")
-        } else {
-          print(ruudut(i)(j).miinojaYmparilla + " ")
-        }
-      }
-      println()
-    }
-  }
-
-  def tulostaRuudukko2(): Unit = {
-    for (i<-0 until riveja) {
-      for (j<-0 until sarakkeita) {
-        if (ruudut(i)(j).klikattu) {
-          if (ruudut(i)(j).hasMiina) {
-            print("* ")
-          } else {
-            print(ruudut(i)(j).miinojaYmparilla + " ")
-          }
-        } else {
-          print("? ")
-        }
-      }
-      println()
-    }
-  }
-
-
 }
