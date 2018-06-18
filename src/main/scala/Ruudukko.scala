@@ -20,9 +20,7 @@ class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int ){
     miinoja
   }
   //Luodaan ruudukko
-  def luoRuudukko():Unit = {
-    lisaaPommit(miinoja)
-  }
+  def luoRuudukko() = lisaaPommit(miinoja)
 
   def lisaaPommit(pLkm: Int): Unit ={
 
@@ -41,9 +39,8 @@ class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int ){
   }
 
 
-  def annaRuutu(x: Int, y: Int): Ruutu = {
-      ruudut(x)(y)
-  }
+  def annaRuutu(x: Int, y: Int): Ruutu = ruudut(x)(y)
+
 
 
   def lisaaVihjeet(x: Int, y: Int): Unit = {
@@ -95,11 +92,8 @@ class Ruudukko (val riveja: Int, val sarakkeita: Int, val miinoja: Int ){
   }
 
   def osuttuMiinaan(): Boolean ={
-    for (i<-0 until riveja; j<-0 until sarakkeita) {
-      if (ruudut(i)(j).klikattu && ruudut(i)(j).hasMiina) {
+    for (i<-0 until riveja; j<-0 until sarakkeita if ruudut(i)(j).klikattu && ruudut(i)(j).hasMiina)
         return true
-      }
-    }
     false
   }
 

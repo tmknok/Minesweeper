@@ -1,12 +1,7 @@
 import java.awt.{BorderLayout, Color, Font, GridBagLayout, GridLayout}
-import java.awt.event.InputEvent
-
-import javax.swing.JButton
 import javax.swing.JFrame
 import javax.swing.JOptionPane
 import javax.swing.JPanel
-import javax.swing.JProgressBar
-import javax.swing.JToggleButton
 import javax.swing.JToolBar
 import java.awt.event.MouseAdapter
 import java.awt.event.MouseEvent
@@ -14,10 +9,8 @@ import java.awt.event.MouseEvent
 import javax.swing.WindowConstants
 import javax.swing.JLabel
 import javax.swing.ImageIcon
-import javax.swing.border.Border
 import javax.swing.BorderFactory
 
-//import scala.swing._
 
 class Peli extends JFrame {
 
@@ -124,20 +117,7 @@ class Peli extends JFrame {
   def defineBody() {
     body.setLayout(new BorderLayout())
     body.add(peliRuutu, BorderLayout.CENTER)
-    //body.add(toolBar, BorderLayout.NORTH)
   }
-
-  /*def alustaLevel(): Unit = {
-
-    btnLevel1.setSize(100,100)
-    btnLevel1.addMouseListener(new MouseAdapter() {
-      override def mouseReleased(e: MouseEvent) {
-        val hula = new Ruudukko(rivit, sarakkeet, miinat)
-        alustaTaso(hula)
-      }
-    })
-  }*/
-
 
   def alustaTaso(peli: Ruudukko): Unit = {
     setSize(peli.annaRivit() * (ruutu.getIconWidth - 1), peli.annaSarakkeet() * ruutu.getIconHeight)

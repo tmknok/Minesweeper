@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bde9fc94-a93b-4485-a649-3a4269af3e63" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Minesweeper.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Minesweeper.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Peli.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Peli.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Ruudukko.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Ruudukko.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Ruutu.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Ruutu.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Ruudukko.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Ruudukko.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,8 +30,8 @@
       <file leaf-file-name="Minesweeper.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -36,8 +39,8 @@
       <file leaf-file-name="Peli.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Peli.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1802">
-              <caret line="106" column="23" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="23" />
+            <state relative-caret-position="765">
+              <caret line="120" selection-start-line="120" selection-end-line="120" />
               <folding>
                 <element signature="e#0#70#0" expanded="true" />
               </folding>
@@ -45,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ruudukko.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Ruudukko.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Ruudukko.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="935">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -57,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ruutu.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Ruutu.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Ruutu.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="306">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -94,10 +97,10 @@
         <option value="$PROJECT_DIR$/src/main/scala/PelinLuonti.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Pelimoottori.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Taulu.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Ruudukko.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Ruutu.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Minesweeper.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Peli.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Ruudukko.scala" />
       </list>
     </option>
   </component>
@@ -291,7 +294,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22896552" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22896552" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -302,7 +305,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -467,22 +470,15 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/7zO4664B736/GridLayoutDemo.java" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Minesweeper.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Ruutu.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Peli.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="106" column="23" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="23" />
+        <state relative-caret-position="765">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
           <folding>
             <element signature="e#0#70#0" expanded="true" />
           </folding>
@@ -491,11 +487,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Ruudukko.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="935">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Ruutu.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>

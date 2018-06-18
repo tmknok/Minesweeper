@@ -1,6 +1,7 @@
 import scala.util.Random
 
-case class Ruutu (hasMiina:Boolean, liputettu: Boolean, klikattu: Boolean, var miinojaYmparilla: Int) {
+case class Ruutu (hasMiina: Boolean, liputettu: Boolean, klikattu: Boolean, var miinojaYmparilla: Int) {
+
   def this() = this(false,false,false,0)
 
   //palauttaa onko miina
@@ -16,3 +17,5 @@ case class Ruutu (hasMiina:Boolean, liputettu: Boolean, klikattu: Boolean, var m
     miinojaYmparilla+=1
   }
 }
+
+
